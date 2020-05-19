@@ -20,6 +20,18 @@
      <div class="text">Insert Email</div>
       <q-input filled v-model="email" type="email" class="input-size q-mt-sm" label="Email" />
    </div>
+    <div class="data-name q-mt-xl q-ml-xl">
+     <div class="text">Insert Card number</div>
+      <q-input filled v-model="email" type="number" class="input-size q-mt-sm" label="cardNumber" />
+   </div>
+    <div class="data-name q-mt-xl q-ml-xl">
+     <div class="text">Insert Expiery Date</div>
+      <q-input filled v-model="email" type="number" class="input-size q-mt-sm" label="expDate" />
+   </div>
+       <div class="data-name q-mt-xl q-ml-xl">
+     <div class="text">Insert Expiery CVV</div>
+      <q-input filled v-model="email" type="number" class="input-size q-mt-sm" label="cvv" />
+   </div>
 
 
 
@@ -36,6 +48,9 @@ export default {
       phone: '',
       post: '',
       email: '',
+      cardNumber: '',
+      expDate: '',
+      cvv: ''
     }
   }
 }
