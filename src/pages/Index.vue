@@ -28,7 +28,7 @@
             </div>
             <div class="data-name q-mt-xl q-ml-xl">
               <div class="text">Insert Phone Number</div>
-                <q-input filled v-model="phone" type="text" class="input-size q-mt-sm" mask="+370########" label="Phone" />
+                <q-input filled v-model="phone" type="text" class="input-size q-mt-sm" label="Phone" />
             </div>
             <div class="data-name q-mt-xl q-ml-xl">
               <div class="text">Insert Post Code</div>
