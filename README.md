@@ -4,7 +4,7 @@ project for database class
 
 ## Install the dependencies
 ```bash
-yarn
+yarn install
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
